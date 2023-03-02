@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.technology-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4faff;
+  padding: 20px;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.head-content-container {
+  text-align: center;
+  width: 50vw;
+}
+.card-heading {
+  color: #171f46;
+}
+.card-description {
+  color: #64748b;
+}
+@media (max-width: 768px) {
+  .head-content-container {
+    width: 70vw;
+  }
+}
